@@ -1,7 +1,7 @@
 // GR26 check-in: la pagina si apre anche senza rete.
 // Pagina: prima la rete (per avere sempre l'ultima versione), cache se offline.
 // Risorse statiche: prima la cache. Il database non passa mai di qui.
-const CACHE = "gr26-v1";
+const CACHE = "gr26-v2";
 const CORE = ["./", "./index.html", "./banner.jpg"];
 
 self.addEventListener("install", e => {
